@@ -1,0 +1,122 @@
+/**
+  * @package cssecoST
+  * css/scss/csseco.scss
+  * Styles for frontend pages
+  */
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+    # CSSeco Imports
+    # Generic
+    # Navigation
+    # Header
+    # Footer
+    # Globals and Posts Formats
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# CSSeco Imports
+--------------------------------------------------------------*/
+@import 'fonts/fonts.css';               // Fonts
+@import 'base/variables';                // Variables
+@import 'base/mixins';                   // Mixins
+@import 'base/placeholders';             // Placeholders
+@import 'base/wordpress';                // Wordpress default classes
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+body {
+	font-family: $csseco_body_font_fira;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: greyscale;
+}
+
+a {
+	color: $csseco_primary-color;
+	text-decoration: none;
+	@include animate( color, 320ms );
+	&:hover,
+	&:focus {
+		color: $csseco_light-grey;
+	}
+}
+
+.bg-img-el {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	.table-cell {
+		display: table-cell;
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+	}
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Globals and Posts Formats
+--------------------------------------------------------------*/
+@import 'base/globals';                  // Global Elements
+@import 'posts-formats/single';          // Single Post Template
+@import 'posts-formats/standard-pf';     // Post Format: Standard
+@import 'posts-formats/image-pf';        // Post Format: Image
+@import 'posts-formats/audio-pf';        // Post Format: Audio
+@import 'posts-formats/video-pf';        // Post Format: Video
+@import 'posts-formats/gallery-pf';      // Post Format: Gallery
+@import 'posts-formats/quote-pf';        // Post Format: Quote
+@import 'posts-formats/link-pf';         // Post Format: Link
+@import 'posts-formats/aside-pf';        // Post Format: Aside
+@import 'posts-formats/status-pf';       // Post Format: Status
+@import 'posts-formats/chat-pf';         // Post Format: Chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

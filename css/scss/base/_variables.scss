@@ -1,0 +1,25 @@
+/**
+ * @package cssecoST
+ * css/scss/base/_variables.scss
+ */
+
+// Screen Sizes
+$csseco_bp_576					: 				576px; 	// Small screen 
+$csseco_bp_768					: 				768px; 	// Medium screen
+$csseco_bp_992					: 				992px; 	// Large screen
+$csseco_bp_1200 				: 				1200px;	// Extra large screen
+
+// FontFamily
+$csseco_body_font_fira			: 				'Fira Sans', 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif;
+$csseco_body_font_merriweather	: 				'Merriweather', 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif;
+$csseco_body_font_playfair		: 				'Playfair Display', 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif;
+$csseco_body_font_roboto		: 				'Roboto', 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif;
+
+// Colors
+$csseco_primary-color			: 				#000000;
+$csseco_dark-grey				: 				#333333;
+$csseco_light-grey				: 				#898989;
+$csseco_lighter-grey			: 				#F1F1F1;
+
+// Header
+$featured_height				:           	350px;

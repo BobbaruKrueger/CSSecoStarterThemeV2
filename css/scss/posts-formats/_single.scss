@@ -1,0 +1,34 @@
+/**
+ * @package CSSecoThemes
+ * posts-formats/_single.scss
+ *
+ * Single Post Template
+ */
+
+article.csseco-single-post {
+  header.entry-header {
+    h1.entry-title {}
+    .entry-meta {}
+  }
+  .entry-content { 
+      .single-featured {
+        border: 1px solid #eee;
+        padding: 10px 10px;
+        margin: 0 0 5px 0;
+        width: 100%;
+        @media screen and (min-width: $csseco_bp_576){
+          padding: 15px 20px;
+        }
+        @media screen and (min-width: $csseco_bp_768){
+          padding: 17px 50px;
+        }
+        @media screen and (min-width: $csseco_bp_992){
+          padding: 20px 75px;
+        }
+      }
+    .entry-excerpt {}
+  }
+  footer.entry-footer {
+    /* ../base/_globals.scss */
+  }
+}

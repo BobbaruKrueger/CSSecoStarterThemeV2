@@ -1,0 +1,9 @@
+/**
+  * @package cssecoST
+  * css/scss/csseco.admin.scss
+  * Styles for admin page/pages
+  */
+#previewLogo {
+  display: block;
+  margin: 5px 0 0;
+  max-height: 90px; }

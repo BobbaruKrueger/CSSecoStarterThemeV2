@@ -1,0 +1,451 @@
+/**
+  * @package cssecoST
+  * css/scss/csseco.scss
+  * Styles for frontend pages
+  */
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+    # CSSeco Imports
+    # Generic
+    # Navigation
+    # Header
+    # Footer
+    # Globals and Posts Formats
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# CSSeco Imports
+--------------------------------------------------------------*/
+@import url(fonts/fonts.css);
+/**
+ * @package cssecoST
+ * css/scss/base/_variables.scss
+ */
+/**
+  * @package cssecoST
+  * css/scss/base/_mixins.scss
+  */
+/**
+ * @package cssecoST
+ * css/scss/base/_placeholders.scss
+ *
+ * %placeholder { text-shadow: 0 1px 2px rgba(0, 0, 0, .4); }
+ * @extend %placeholder;
+ *
+ * Placeholders
+ */
+article.csseco-format-image header.entry-header .entry-excerpt.image-caption {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 );
+  /* IE6-9 */ }
+
+/**
+ * @package cssecoST
+ * css/scss/base/_wordpress.scss
+ */
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+a img.alignnone {
+  margin: 5px 20px 20px 0; }
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 100%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center; }
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+  clear: both; }
+
+.wp-caption.aligncenter {
+  clear: both; }
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0; }
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px; }
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: auto; }
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+body {
+  font-family: "Fira Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale; }
+
+a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: color 320ms ease;
+  -moz-transition: color 320ms ease;
+  -ms-transition: color 320ms ease;
+  -o-transition: color 320ms ease;
+  transition: color 320ms ease; }
+  a:hover, a:focus {
+    color: #898989; }
+
+.bg-img-el {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.table {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .table .table-cell {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Globals and Posts Formats
+--------------------------------------------------------------*/
+/**
+  * @package cssecoST
+  * css/scss/base/_globals.scss
+  * Styles for frontend pages
+  *
+  * Global Elements
+  *
+  *
+  * Article posts footer ** the footer is the same on all post formats
+  */
+article .standard-featured {
+  display: block;
+  min-height: 350px; }
+article .entry-share h4 {
+  margin-bottom: 0; }
+article .entry-share ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  article .entry-share ul li {
+    display: inline-block;
+    margin-right: 5px; }
+    article .entry-share ul li a {
+      font-size: 34px; }
+article .entry-footer {
+  border-bottom: 3px solid #c5c4cd;
+  margin: 15px 0 40px;
+  padding: 0 0 10px; }
+  article .entry-footer .post-footer-container .footer-right {
+    text-align: right; }
+    @media screen and (max-width: 576px) {
+      article .entry-footer .post-footer-container .footer-right i {
+        float: left;
+        margin-right: 5px; } }
+    @media screen and (max-width: 576px) {
+      article .entry-footer .post-footer-container .footer-right {
+        text-align: left; } }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_single.scss
+ *
+ * Single Post Template
+ */
+article.csseco-single-post .entry-content .single-featured {
+  border: 1px solid #eee;
+  padding: 10px 10px;
+  margin: 0 0 5px 0;
+  width: 100%; }
+  @media screen and (min-width: 576px) {
+    article.csseco-single-post .entry-content .single-featured {
+      padding: 15px 20px; } }
+  @media screen and (min-width: 768px) {
+    article.csseco-single-post .entry-content .single-featured {
+      padding: 17px 50px; } }
+  @media screen and (min-width: 992px) {
+    article.csseco-single-post .entry-content .single-featured {
+      padding: 20px 75px; } }
+article.csseco-single-post footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_standard-pf.scss
+ *
+ * Standard Post Format
+ */
+article.csseco-format-standard footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_image-pf.scss
+ *
+ * Image Post Format
+ */
+article.csseco-format-image header.entry-header {
+  min-height: 350px;
+  position: relative;
+  text-align: center; }
+  article.csseco-format-image header.entry-header .entry-excerpt.image-caption {
+    bottom: 0;
+    color: #898989;
+    left: 0;
+    margin: 0;
+    padding: 0 15px;
+    position: absolute;
+    right: 0; }
+    article.csseco-format-image header.entry-header .entry-excerpt.image-caption p {
+      margin: 40px 0;
+      font-size: 14px; }
+article.csseco-format-image footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_audio-pf.scss
+ *
+ * Audio Post Format style
+ */
+article.csseco-format-audio header.entry-header h1.entry-title {
+  display: inline-block;
+  width: auto; }
+article.csseco-format-audio header.entry-header .entry-meta {
+  display: inline-block;
+  width: auto; }
+article.csseco-format-audio .entry-content iframe {
+  height: 166px;
+  width: 100%; }
+article.csseco-format-audio footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_video-pf.scss
+ *
+ * Video Post Format
+ */
+article.csseco-format-video header.entry-header h1.entry-title {
+  text-align: center; }
+article.csseco-format-video footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_gallery-pf.scss
+ *
+ * Gallery Post Format style
+ */
+article.csseco-format-gallery header.entry-header .csseco_carousel {
+  overflow: hidden; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel .carousel-inner .carousel-item {
+    min-height: 350px; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control {
+    font-size: 26px; }
+    article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control .preview-thumb {
+      border: 2px solid #eee;
+      border-radius: 10px;
+      bottom: 10px;
+      height: 70px;
+      opacity: 0;
+      position: absolute;
+      visibility: hidden;
+      width: 70px;
+      -webkit-transition: all 320ms ease;
+      -moz-transition: all 320ms ease;
+      -ms-transition: all 320ms ease;
+      -o-transition: all 320ms ease;
+      transition: all 320ms ease; }
+    article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control:hover .preview-thumb {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all 320ms ease;
+      -moz-transition: all 320ms ease;
+      -ms-transition: all 320ms ease;
+      -o-transition: all 320ms ease;
+      transition: all 320ms ease; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev .preview-thumb {
+    left: -100%; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-prev:hover .preview-thumb {
+    left: 10px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 320ms ease;
+    -moz-transition: all 320ms ease;
+    -ms-transition: all 320ms ease;
+    -o-transition: all 320ms ease;
+    transition: all 320ms ease; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next .preview-thumb {
+    right: -100%; }
+  article.csseco-format-gallery header.entry-header .csseco_carousel a.carousel-control.carousel-control-next:hover .preview-thumb {
+    opacity: 1;
+    right: 10px;
+    visibility: visible;
+    -webkit-transition: all 320ms ease;
+    -moz-transition: all 320ms ease;
+    -ms-transition: all 320ms ease;
+    -o-transition: all 320ms ease;
+    transition: all 320ms ease; }
+article.csseco-format-gallery footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_quote-pf.scss
+ *
+ * Quote Post Format style
+ */
+article.csseco-format-quote header.entry-header h1.qote-content {
+  font-size: 34px;
+  letter-spacing: 0.03em;
+  position: relative; }
+  article.csseco-format-quote header.entry-header h1.qote-content::before, article.csseco-format-quote header.entry-header h1.qote-content::after {
+    color: #999999;
+    display: inline-block;
+    position: relative; }
+  article.csseco-format-quote header.entry-header h1.qote-content::before {
+    content: '\201C'; }
+  article.csseco-format-quote header.entry-header h1.qote-content::after {
+    content: '\201E'; }
+article.csseco-format-quote header.entry-header h2.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  text-align: right; }
+  article.csseco-format-quote header.entry-header h2.quote-author::before {
+    content: '\2014 ';
+    display: inline-block;
+    margin: 0 5px 0 0;
+    position: relative; }
+article.csseco-format-quote footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_link-pf.scss
+ *
+ * Link Post Format style
+ */
+article.csseco-format-link header.entry-header h1.entry-title {
+  text-align: center; }
+  article.csseco-format-link header.entry-header h1.entry-title i,
+  article.csseco-format-link header.entry-header h1.entry-title svg {
+    color: #999999;
+    display: block;
+    margin: 7px auto 0;
+    text-align: center;
+    width: 50px; }
+article.csseco-format-link footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_aside-pf.scss
+ *
+ * Aside Post Format style
+ */
+article.csseco-format-aside .aside-featured {
+  height: 120px; }
+article.csseco-format-aside footer.entry-footer {
+  /* ../base/_globals.scss */ }
+
+/**
+ * @package CSSecoThemes
+ * posts-formats/_status-pf.scss
+ *
+ * Status Post Format style
+ */
+/**
+ * @package CSSecoThemes
+ * posts-formats/_chat-pf.scss
+ *
+ * Chat Post Format style
+ */

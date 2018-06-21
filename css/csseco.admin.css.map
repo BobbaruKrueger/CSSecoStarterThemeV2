@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,YAAa,CACZ,OAAO,CAAE,KAAK,CACd,MAAM,CAAE,OAAO,CACf,UAAU,CAAE,IAAI",
+"sources": ["scss/csseco.admin.scss"],
+"names": [],
+"file": "csseco.admin.css"
+}

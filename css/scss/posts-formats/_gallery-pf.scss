@@ -1,0 +1,73 @@
+/**
+ * @package CSSecoThemes
+ * posts-formats/_gallery-pf.scss
+ *
+ * Gallery Post Format style
+ */
+
+article.csseco-format-gallery {
+	header.entry-header {
+		.csseco_carousel {
+			overflow: hidden;
+			.carousel-inner {
+				.carousel-item {
+					min-height: $featured_height;
+				}
+			}
+			a.carousel-control {
+				font-size: 26px;
+				.preview-thumb {
+					border: 2px solid #eee;
+					border-radius: 10px;
+					bottom: 10px;
+					height: 70px;
+					opacity: 0;
+					position: absolute;
+					visibility: hidden;
+					width: 70px;
+					@include animate( all, 320ms );
+				}
+				&:hover {
+					.preview-thumb {
+						opacity: 1;
+						visibility: visible;
+						@include animate( all, 320ms );
+					}
+				}
+			}
+			a.carousel-control.carousel-control-prev {
+				.preview-thumb {
+					left: -100%;
+				}
+				&:hover {
+					.preview-thumb {
+						left: 10px;
+						opacity: 1;
+						visibility: visible;
+						@include animate( all, 320ms );
+					}
+				}
+			}
+			a.carousel-control.carousel-control-next {
+				.preview-thumb {
+					right: -100%;
+				}
+				&:hover {
+					.preview-thumb {
+						opacity: 1;
+						right: 10px;
+						visibility: visible;
+						@include animate( all, 320ms );
+					}
+				}
+			}
+		}
+	h1.entry-title {}
+		.standard-featured {}
+		.entry-meta {}
+	}
+	.entry-content {}
+	footer.entry-footer {
+		/* ../base/_globals.scss */
+	}
+}
