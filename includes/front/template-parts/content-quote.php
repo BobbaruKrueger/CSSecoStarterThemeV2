@@ -1,6 +1,6 @@
 <?php
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * includes/front/template-parts/content-quote.php
  *
  * Quote Post Format

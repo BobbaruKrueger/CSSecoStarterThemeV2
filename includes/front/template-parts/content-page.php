@@ -1,6 +1,6 @@
 <?php
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * includes/front/template-parts/content-page.php
  *
  * Page Tempalte

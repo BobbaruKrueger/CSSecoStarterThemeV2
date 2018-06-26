@@ -7,9 +7,9 @@
  */
 function csseco_sidebar_widgets_init() {
 	register_sidebar( array (
-		'name'              => __('Sidebar', 'cssecotheme'),
+		'name'              => __('Sidebar', 'cssecoST'),
 		'id'                => 'csseco_sidebar',
-		'description'       => __( 'Widget area', 'cssecotheme'),
+		'description'       => __( 'Widget area', 'cssecoST'),
 		'class'             => '',
 		'before_widget'     => '<section id="%1$s" class="csseco-widget %2$s">',
 		'after_widget'      => '</section>',

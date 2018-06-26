@@ -234,7 +234,7 @@ article .entry-footer {
         text-align: left; } }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_single.scss
  *
  * Single Post Template
@@ -257,7 +257,7 @@ article.csseco-single-post footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_standard-pf.scss
  *
  * Standard Post Format
@@ -266,7 +266,7 @@ article.csseco-format-standard footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_image-pf.scss
  *
  * Image Post Format
@@ -290,7 +290,7 @@ article.csseco-format-image footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_audio-pf.scss
  *
  * Audio Post Format style
@@ -308,7 +308,7 @@ article.csseco-format-audio footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_video-pf.scss
  *
  * Video Post Format
@@ -319,7 +319,7 @@ article.csseco-format-video footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_gallery-pf.scss
  *
  * Gallery Post Format style
@@ -378,7 +378,7 @@ article.csseco-format-gallery footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_quote-pf.scss
  *
  * Quote Post Format style
@@ -409,7 +409,7 @@ article.csseco-format-quote footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_link-pf.scss
  *
  * Link Post Format style
@@ -427,7 +427,7 @@ article.csseco-format-link footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_aside-pf.scss
  *
  * Aside Post Format style
@@ -438,13 +438,13 @@ article.csseco-format-aside footer.entry-footer {
   /* ../base/_globals.scss */ }
 
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_status-pf.scss
  *
  * Status Post Format style
  */
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * posts-formats/_chat-pf.scss
  *
  * Chat Post Format style

@@ -1,6 +1,6 @@
 <?php
 /**
- * @package CSSecoThemes
+ * @package cssecoST
  * includes/front/template-parts/content-video.php
  *
  * Video Post Format
@@ -29,7 +29,7 @@
 		</div><!-- /.entry-excerpt -->
 		<div class="button-container">
 			<a href="<?php the_permalink(); ?>" class="btn btn-default">
-				<?php _e( 'Read More', 'cssecotheme' ); ?>
+				<?php _e( 'Read More', 'cssecoST' ); ?>
 			</a>
 		</div><!-- /.button-container -->
 	</div><!-- /.entry-content -->
